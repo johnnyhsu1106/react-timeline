@@ -1,5 +1,6 @@
 ### Getting Started
 This is a Timline Chart built based on React.
+App: https://react-timeline-chart-by-yh.web.app/
 
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
