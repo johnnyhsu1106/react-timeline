@@ -1,0 +1,53 @@
+.chart {
+  min-height: 60vh;
+  position: relative;
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.group {
+  height: 60px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.event {
+  height: 100%;
+  padding: 4px 15px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  white-space: nowrap;
+  overflow: initial;
+  text-align: left;
+  text-overflow: ellipsis;
+  border-radius: 10px;
+  background-color: #2158b6;
+  box-sizing: border-box;
+}
+
+.event:hover {
+  background-color: #076ebd;
+  cursor: pointer;
+}
+
+.event.selected {
+  border: 4px solid rgb(231, 10, 10);
+}
+
+.event-name {
+  width: auto;
+  font-size: 0.75rem;
+  margin-bottom: 4px;
+}
+
+.event-range {
+  width: auto;
+  font-size: 0.6rem;
+  font-style: italic;
+}

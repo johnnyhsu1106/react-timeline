@@ -1,0 +1,22 @@
+.axis {
+  position: relative;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  color: #eee;
+}
+
+.tick {
+  position: absolute;
+  top: 30px;
+  font-size: 16px;
+  transform: rotate(-45deg);
+}
+
+.axis-line {
+  position: absolute;
+  bottom: 10px;
+  height: 2px;
+  width: 100%;
+  background-color: #ccc;
+}
