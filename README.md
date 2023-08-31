@@ -30,21 +30,10 @@ User can search event by keyword
 
 
 1. Timeline layout should arrange events in a compact space-efficient way
-![image](https://github.com/johnnyhsu1106/react-timeline/assets/18588513/d783e8ca-6ba8-4f50-b503-536d67f385d7)
-
-
-2. Click the event and the event can be edited or deleted
-![image](https://github.com/johnnyhsu1106/react-timeline/assets/18588513/ae2d94f6-30a5-44e0-9fda-bc48d689deed)
-
-   
+2. Click the event and the event can be edited or deleted   
 3. Click the page and the new event can be created and added.
-![image](https://github.com/johnnyhsu1106/react-timeline/assets/18588513/11feeddc-50ea-45a6-9d7f-0cf3d6b28d81)
-
-
-
 4. The event can be searched and re-ranged.
-![image](https://github.com/johnnyhsu1106/react-timeline/assets/18588513/c0b59698-6d21-4646-9d8a-8a7e8d8dbe0a)
-![image](https://github.com/johnnyhsu1106/react-timeline/assets/18588513/96de512a-6ba0-4a34-8dbe-91a3accf3300)
+
 
 
 
