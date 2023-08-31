@@ -10,6 +10,9 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 > npm run dev
 ```
 
+
+![image](https://github.com/johnnyhsu1106/react-timeline/assets/18588513/89de7c23-92df-41be-b783-029457596808)
+
 This timeline chart supports the folowing features.
 1. Add Event
 User can click the anypwehre without event to create a new event.
