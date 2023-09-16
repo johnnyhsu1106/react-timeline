@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "react-timeline-by-jh",
     "public": "dist",
     "ignore": [
       "firebase.json",

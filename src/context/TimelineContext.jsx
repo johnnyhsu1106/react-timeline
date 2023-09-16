@@ -188,7 +188,7 @@ const TimelineProvider = ({ children }) => {
   };
 
 
-  const context = {
+  const value = {
     isModalOpen,
     query,
     filteredEvents,
@@ -211,7 +211,7 @@ const TimelineProvider = ({ children }) => {
   };
 
   return (
-    <TimelineContext.Provider value={context}>
+    <TimelineContext.Provider value={value}>
       {children}
     </TimelineContext.Provider>
   )

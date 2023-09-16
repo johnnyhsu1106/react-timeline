@@ -105,22 +105,20 @@ const TimelineModalProvider = ({children}) => {
     setEndDate(date);
   };
 
-  const context = {
+  const value = {
     name,
     isEditable,
     startDate, 
     endDate,
     handleStartDateSelect,
     handleEndDateSelect,
-    // setStartDate,
-    // setEndDate,
     handleInputChange,
     handleFormSubmit,
     handleOverlayClick
   };
 
   return (
-    <TimlineModalContext.Provider value={context}>
+    <TimlineModalContext.Provider value={value}>
       {children}
     </TimlineModalContext.Provider>
   )
