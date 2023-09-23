@@ -8,6 +8,10 @@
 }
 
 .search-bar {
+  position: relative;
+}
+
+.search-input {
   min-width: 300px;
   width: 300px;
   height: 40px;
@@ -20,19 +24,29 @@
   background-color: #fff;
 }
 
-.search-bar:hover, 
-.search-bar:focus {
+.search-input:hover, 
+.search-input:focus {
   color: #333;
   background-color: #eee;
 }
 
-.search-bar::placeholder {
+.search-input::placeholder {
   color: #666;
 }
 
-.search-bar:hover::placeholder,
-.search-bar:focus::placeholder {
+.search-input:hover::placeholder,
+.search-input:focus::placeholder {
   color: #eee;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 30px;
+  color: black;
+  font-weight: 200;
+  cursor: pointer;
 }
 
 .search-date {

@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useMemo, useEffect } from 'react'
+import { createContext, useContext, useState, useMemo } from 'react'
 import timelineItems from '../timelineItems';
 import utils from '../utils';
 
@@ -173,6 +173,10 @@ const TimelineProvider = ({ children }) => {
     setQuery(inputValue);
   };
 
+  const handleClearSearch = () => {
+    setQuery('');
+  };
+
   const handleFilteredStartDateSelect = (date) => {
     setFilteredStartDate(date);
   };
@@ -205,6 +209,7 @@ const TimelineProvider = ({ children }) => {
     handleModalToggle,
     handleModalClose,
     handleInputSearch,
+    handleClearSearch,
     handleFilteredStartDateSelect,
     handleFilteredEndDateSelect,
     handleFilteredDateReset
