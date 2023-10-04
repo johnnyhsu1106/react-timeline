@@ -6,7 +6,11 @@ const { DAY_IN_SECONDS } = utils;
 const TimelineContext = createContext({});
 
 const useTimelineContext = () => {
-  return useContext(TimelineContext);
+  const context = useContext(TimelineContext);
+  if (context === undefined) {
+    throw new Error('useTimelineContext must be used within a TimelineProvider');
+  }
+  return context;
 }
 
 const TimelineProvider = ({ children }) => {

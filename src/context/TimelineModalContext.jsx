@@ -5,7 +5,11 @@ import { v4 as uuidv4 } from 'uuid';
 const TimlineModalContext = createContext();
 
 const useTimelineModalContext = () => {
-  return useContext(TimlineModalContext);
+  const context = useContext(TimlineModalContext);
+  if (context === undefined) {
+    throw new Error('useTimelineModalContext must be used within a TimelineModalProvider');
+  }
+  return context;
 };
 
 
